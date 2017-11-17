@@ -1,0 +1,112 @@
+.dd-list .dd-item {
+    width: 382px;
+}
+.dd-list .dd-handle {
+    margin-bottom: 0px;
+    background: #fafafa;
+    padding: 10px 15px;
+    border-radius: 0px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.dd-list .dd-handle:hover {
+    background: #fafafa;
+    background: none;
+    border-color: #999;
+}
+.dd-item > button {
+    height: 30px;
+}
+.detail-icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 9px;
+    right: 4px;
+    text-align: center;
+}
+.blank-panel .float-e-margins .panel-heading {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.i-checks input[type=checkbox] {
+    margin-left: 5px;
+}
+.i-checks label {
+    padding-left: 15px;
+}
+.the-box {
+    border: 1px solid #dddddd;
+}
+.panel-group .panel {
+    border-radius: 0px;
+}
+.panel-default>.panel-heading {
+    background-color: #ffffff;
+}
+.panel-group .panel-no-margin {
+    margin-top: 0px;
+}
+#MenuName {
+    width: 382px;
+}
+.panel-group .panel-footer {
+    border-top: 1px solid #ddd;
+}
+.float-e-margins .panel-footer .btn-sm {
+    margin-bottom: 0px;
+}
+.dd-item.active>.item-details {
+    display: block;
+}
+.dd-item .item-details {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-top: none;
+    display: none;
+}
+.item-details .btn-edit {
+    color: #1ab394;
+    padding-right: 10px;
+    border-right: 1px solid #000000;
+}
+.item-details .btn-remove {
+    color: #c9302c;
+    padding-right: 10px;
+    padding-left: 5px;
+    border-right: 1px solid #000000;
+}
+.item-details .btn-cancel {
+    padding-left: 5px;
+}
+#external_link .the-box{
+    border: none;
+}
+.spinner {
+    background: url(../img/spinner.gif) no-repeat;
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+    display: inline-block;
+     visibility: hidden;
+    float: left;
+    vertical-align: middle;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    width: 20px;
+    height: 20px;
+    margin: 4px 0px 0px 175px;
+}
+.spinner.is-active {
+    visibility: visible;
+}
+.dd-list .dd-handle {
+    min-height: 42px;
+}
+.dd-type {
+    cursor: pointer;
+    position: absolute;
+    top: 11px;
+    right: 30px;
+    text-align: center;
+}
